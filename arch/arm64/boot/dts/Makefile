@@ -12,15 +12,15 @@ dts-dirs += hisilicon
 dts-dirs += marvell
 dts-dirs += mediatek
 dts-dirs += nvidia
-ifneq ($(CONFIG_OF_IGNORE_QCOM_DTS),y)
+#ifneq ($(CONFIG_OF_IGNORE_QCOM_DTS),y)
 dts-dirs += qcom
-endif
+#endif
 dts-dirs += renesas
 dts-dirs += rockchip
 dts-dirs += socionext
 dts-dirs += sprd
-dts-dirs += xiaomi-msm8937
-dts-dirs += xiaomi-sdm439
+#dts-dirs += xiaomi-msm8937
+#dts-dirs += xiaomi-sdm439
 dts-dirs += xilinx
 dts-dirs += lg
 dts-dirs += zte
