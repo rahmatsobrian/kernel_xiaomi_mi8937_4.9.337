@@ -106,7 +106,7 @@ build_kernel() {
     get_toolchain_info
 
     rm -rf out
-    make O=out ARCH=arm64 msm8937hos_defconfig || {
+    make O=out ARCH=arm64 rahmatmsm8937_defconfig || {
         send_telegram_error
         exit 1
     }
